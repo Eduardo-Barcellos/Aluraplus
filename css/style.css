@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --pwhite: #fff;
+    --cinza: #c0c0c0;
+    --fundo: #00030c;
+    --azul: #167bf7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--fundo);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: var(--pwhite);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.principal {
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.botaoazul {
+    background-color: var(--azul);
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 1em;
+    color: var(--pwhite);
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.botaocinza {
+    background-color: transparent;
+    color: var(--pwhite);
+    text-decoration: none;
+    border: 1px var(--pwhite) solid;
+    padding: 1em;
+    display: block;
+    border-radius: 7px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.aviso {
+    color: var(--cinza);
+    font-size: 12px;
+}
+
+.imagem {
+    margin: 1em 0 2em 0;
+}
+
+.divcentro {
+    width: 100%;
+    margin: 0 6em;
+}
+
+.h2Secundario {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--pwhite);
+    margin-bottom: 0.1em;
+}
+
+.textoSecundario {
+    color: var(--cinza);
+    text-align: justify;
+}
+
+.imagemSecundaria {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.terceiro {
+    align-items: center;
+    margin: 0 5em;
+    padding: 0 4em;
+}
+
+.imagem3 {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.divterceiro {
+    width: 100%;
+}
+
+.azul2 {
+    display: inline-block;
+}
+
+.botao70 {
+    width: 70%;
+}
+
+.h2Quarto {
+    color: var(--pwhite);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.textoQuarto {
+    color: var(--cinza);
+}
+
+.quarto {
+    margin: 0 15em;
+    align-items: center;
+}
+
+h3 {
+    color: var(--pwhite);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.h2centro {
+    text-align: center;
+}
+
+.lista {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.listafooter {
+    display: flex;
+    color: var(--pwhite);
+    list-style-type: none;
+    justify-content: center;
+}
+
+.listafooter a {
+    color: var(--pwhite);
+    text-decoration: none;
+}
+
+.listafooter li {
+    margin: 10px 0px 0px 20px;
+}
+
+footer {
+   text-align: center;
+}
+
+.pfooter {
+    font-size: 14px;
+    color: var(--cinza);
+    padding: 10px 0;
+}
+
+.listafooter li a:hover {
+    color: var(--azul);
+}
+
+.botao:hover {
+    transform: scale(1.05);
+}
